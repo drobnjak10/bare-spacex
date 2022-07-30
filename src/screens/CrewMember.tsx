@@ -50,7 +50,7 @@ const onClose = () => {
 }
 
   React.useEffect(() => {
-    //requestCameraPermission()
+    requestCameraPermission()
   }, [])
 
   if(error) {
